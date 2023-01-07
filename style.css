@@ -1,0 +1,294 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background: url("images/banner2.png");
+    background-size: cover;
+    background-size:1400px 400px;
+    height: 400px;
+    text-align: right;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+
+    
+}
+.banner{
+    
+    margin-right: 200px;
+    padding-top: 200px 200px;
+    
+    margin-bottom: 130px;
+    margin-top: 200px;
+}
+.bn-title{
+   font-size: 50px;
+   font-weight: 700;
+   color: #fff;
+   margin-bottom: 24px;
+}
+.banner-description{
+   font-size: 16px;
+   color: #FFFFFF;
+   font-weight: 300;
+   margin-bottom: 28px;
+}
+.btn{
+    background-color: #F15B22;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* second part */
+.second-width{
+    width: 50%;
+    margin-top: ;
+}
+.img-second{
+    width: 300px;
+    
+}
+.second-section{
+    margin-top: 50px ;
+    padding-left: 200px;
+    padding-right:200px;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+.second-title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom:10px;
+}
+ul{
+    list-style: none;
+    font-size: 12px;
+    line-height: 18px
+}
+.fa-solid{
+   color:rgb(104, 158, 104);
+   margin-right: 5px;
+}
+.pln-section{
+    margin-top:50px;
+
+}
+.third-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.plans-section{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 0 200px;
+}
+.icon{
+    width:70px;
+   
+}
+.second-width p{
+    font-size: 15px;
+    padding:15px 0;
+}
+/* ----------- */
+.image-name{
+    margin-left: 40px;
+    padding-top: 30px;
+    line-height: 30px;
+    
+    
+}
+.btn-second{
+    background-color:white;
+    padding: 10px 15px;
+    color: #F15B22;
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.gradient-section{
+    
+    background-image:url("images/gradient2.png"), url('images/watch.png');
+    
+    background-repeat: no-repeat,repeat;
+    background-size: cover;
+    width: 800px;
+    height: 150px;
+    margin: auto;
+    border-radius: 10px;
+    margin :30px auto;
+    padding:15px;
+    color:white;
+   
+
+}
+
+
+/* -------- */
+.about-section{
+    width: 70%;
+  background:#fff;
+    padding: 40px 0;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 170px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 30px;
+  border-left: 50px solid hsl(18, 97%, 47%);
+  border-right: 50px solid hsl(18, 97%, 47%);
+   
+   
+  }
+  .inner-width{
+    max-width: 1000px;
+    overflow: hidden;
+    padding: 0 20px;
+    margin: auto;
+  }
+  .about-section h1{
+    text-align: center;
+  }
+  .border{
+    width: 100px;
+    height: 3px;
+    background: #ed3406;
+    margin: 40px auto;
+  }
+  .about-section-row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-section-col{
+    flex: 50%;
+  }
+  .about{
+    padding-right: 30px;
+  }
+  .about p{
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 17px;
+  }
+  .about a{
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 24px;
+    padding: 8px 40px;
+    background-color: rgb(252, 101, 7);
+    color: white;
+  }
+ 
+  .skills{
+    padding-left: 30px;
+  }
+  .skill{
+    margin-bottom: 10px;
+  }
+  .title{
+    color: #7E7C7A
+  }
+  .progress{
+    width: 100%;
+    height: 12px;
+    background: #ddd;
+    border-radius: 12px;
+  }
+  .progress-bar{
+    height: 12px;
+    background: #01643c;
+    border-radius: 12px;
+  }
+  .p1{
+    width: 90%;
+  }
+  .p2{
+    width: 70%;
+  }
+  .p3{
+    width: 50%;
+  }
+  .progress-bar span{
+    float: right;
+    margin-right: 6px;
+    line-height: 13px;
+    color: #fff;
+    font-size: 12px;
+  }
+
+  /* -------- */
+.main-footer{
+    background:#151414;
+    margin-top: 10px;
+
+ }
+.container-footer{
+    display: flex;
+    gap:300px;
+    padding: 200px;
+
+}
+.future-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F8F8F8; 
+}
+.future-description{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.email{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.number-ph{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.icon{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.input-area {
+    width: 30%;
+    padding-left: 250px;
+}
+.input-area-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #fff;
+}
+.input-area input {
+    width: 100%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    background: transparent;
+    color: #F3F3F3;
+   
+    border: 1px solid #fff;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px 35px;
+    margin: 20px 0px ;
+}
+.input-area button{
+    padding: 10px 20px;
+    border-radius:5px;
+}
